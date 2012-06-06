@@ -249,7 +249,7 @@ function register_custom_post_types() {
     'hierarchical' => false,
     'has_archive' => true, /* Looks for archive-news.php */
     'supports' => array('title', 'editor', 'author', 'thumbnail', 'revisions', 'excerpt', 'trackbacks', 'custom-fields'),
-  ), array('front'=> 'newser', 'structure'=>'%year%/%monthnum%/%news%'));
+  ), array('front'=> 'news', 'structure'=>'%year%/%monthnum%/%news%'));
 }
 add_action('init', 'register_custom_post_types');
 ?>
