@@ -1,3 +1,5 @@
+![Screenshot](https://dl.dropbox.com/u/1162759/newscpt.png)
+
 # News Custom Post Type
 
 ## Features
